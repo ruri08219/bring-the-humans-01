@@ -78,7 +78,9 @@
   .refbox .link{
     display:block;
     font-size:clamp(19px,3.4vw,26px);font-weight:800;letter-spacing:-.01em;
-    color:var(--ink);
+    color:var(--magenta);
+    background:rgba(188,12,124,.07);
+    border-radius:10px;padding:10px 12px;
     word-break:break-all;margin-bottom:8px;
   }
   .refbox .link:hover{color:var(--magenta);text-decoration:none}
@@ -162,6 +164,11 @@
   .final{padding:8px 0 64px;text-align:center}
   .final h2{margin-bottom:10px}
   .final p{color:var(--secondary);margin-bottom:24px}
+  .final .final-link{
+    display:block;margin-top:18px;
+    font-size:17px;font-weight:800;color:var(--magenta);
+    word-break:break-all;
+  }
 
   /* footer */
   footer{
@@ -304,6 +311,7 @@
     <h2>Your agent is already good at this.</h2>
     <p>Give it a bounty, a deadline, and a shot at real USDC.</p>
     <a class="cta" href="https://make.fun/r/e2sxs7f4">Start with my link &rarr;</a>
+    <a class="final-link" href="https://make.fun/r/e2sxs7f4">https://make.fun/r/e2sxs7f4</a>
   </div>
 
 </main>
